@@ -1,0 +1,99 @@
+/* define a fonte padrão para o documento */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* estilo para o título principal */
+  h1 {
+    text-align: center;
+    color: #008080;
+    font-size: 2.5em;
+  }
+  
+  /* estilo para os títulos secundários */
+  h2 {
+    color: #008080;
+  }
+  
+  /* estilo para os formulários de entrada */
+  form {
+    margin: 10px 0;
+  }
+  
+  /* estilo para os rótulos de entrada */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* estilo para as entradas de texto */
+  input[type="text"],
+  textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+    width: 100%;
+  }
+  
+  /* estilo para a entrada numérica */
+  input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+    width: 100%;
+  }
+  
+  /* estilo para o botão de adicionar */
+  button#add-item-btn {
+    background-color: #008080;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    color: white;
+    transition: 2px;
+  }
+  /* estilo para a tabela de itens */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* estilo para as células da tabela */
+  td,
+  th {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* estilo para o cabeçalho da tabela */
+  thead {
+    background-color: #008080;
+    color: #fff;
+  }
+  
+  /* estilo para o campo de pesquisa */
+  #search-box {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1.1em;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  
+  /* estilo para a div que contém os itens */
+  #item-form,
+  #item-list {
+    margin-bottom: 20px;
+  }  
